@@ -1,0 +1,151 @@
+.msg-style{
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding: 15px 20px 15px 20px;
+    /* border-radius: 2px; */
+
+    background-color: rgba(255, 255, 255, 0.808);
+    color: rgba(97, 85, 85, 0.863);
+    min-width: 200px;    
+    /* box-shadow: 2px 2px 5px -1px rgba(102, 89, 89, 0.644); */
+
+    max-width: 60%;
+
+
+    transition:  250ms;
+    border-radius: 10px;
+
+
+}
+
+.msg-style:hover{
+    transform: scale(1.04, 1.04);
+    box-shadow: 1px 1px 15px 0px #8383838a;
+}
+
+.btns-position{
+    display: none;
+    justify-content: inherit;
+    align-items: initial;
+}
+
+.msg-style:hover .btns-position{
+    display: flex;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn{
+    height: 25px;
+    width: 60px;
+    min-width: 50px;
+    min-height: 10px;
+    margin-left: 10px;
+    outline: none;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 1.1px;
+
+}
+
+.edit-delete-btn-style{
+
+    color: white;
+    border-color: white;
+    background-color: rgba(4, 74, 204, 0.137);
+
+}
+.reply-btn-style{
+    color: #ffffff;
+    border-color: #c8c8c8;
+    background-color:#acacacdc;
+
+    border-style: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+
+
+.reply-btn-style:hover{
+    transform: scale(1.11, 1.11); 
+    transition:  250ms;
+    background-color:#c8c8c8;
+
+ 
+}
+
+.edit-delete-btn-style:hover{
+    background-color: rgba(255, 255, 255, 0.185);
+    transform: scale(1.11, 1.11);
+    transition:  250ms;
+}
+
+.reply-btn-style:active{
+    transition:  350ms;
+    transform: scale(0.94, 0.94);
+}   
+
+
+.edit-delete-btn-style:active{
+    transition:  350ms;
+    transform: scale(0.94, 0.94);
+}
+
+.date-style{
+    font-size:11px ;
+    color:#9c9c9c;
+    margin-top: 10px;
+}
+
+.replied-msg-style{
+    background-color: rgba(185, 185, 185, 0.22);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 7px 15px 7px 15px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border-left-width: 6px;
+    border-left-style: solid;
+
+  }
+
+
+.replied-username-style{
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+}
+
+.username-style{
+    font-size:20px ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.msg-body{
+    word-break: break-all;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+  
+
+
+
+  
+
